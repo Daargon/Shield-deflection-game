@@ -1,2 +1,3 @@
 # Shield-deflection-game
-Zelda clone where the player only has a shield and has to deflect everything that comes towards them
+Zelda dungeon crawler game crossed with a bullet hell shooter where the player can only deflect the projectiles shot at them
+

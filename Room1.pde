@@ -1,6 +1,8 @@
 void room1()
 { 
-  background(102, 51, 0);
+  background = loadImage ("background.jpg");
+  //Setting the image as a background
+
   fill(50);
   rect(30, 30, 1220, 660);
   //Background and walls
@@ -27,10 +29,10 @@ void room1()
     //Shield in the middle of the room and a bright colour, encouraging the player to pick it up
   }
   
-    if (charPosX >= 615 && charPosX <= 715 && charPosY >= 335 && charPosY <= 385 /*Top left side of player*/ ||
-      charPosX + 50 >= 615 && charPosX + 50 <= 715 && charPosY >= 335 && charPosY <= 385 /*Top right of player ||
-      charPosX >= 615 && charPosX <= 715 && charPosY >= 335 && charPosY <= 385 /*Bottom left side of player ||
-      charPosX >= 615 && charPosX <= 715 && charPosY >= 335 && charPosY <= 385 /*Bottom right side of player */)
+  if (charPosX >= 615 && charPosX <= 715 && charPosY >= 335 && charPosY <= 385 /*Top left side of player*/ ||
+    charPosX + 50 >= 615 && charPosX + 50 <= 715 && charPosY >= 335 && charPosY <= 385 /*Top right of player ||
+    charPosX >= 615 && charPosX <= 715 && charPosY >= 335 && charPosY <= 385 /*Bottom left side of player ||
+    charPosX >= 615 && charPosX <= 715 && charPosY >= 335 && charPosY <= 385 /*Bottom right side of player */)
       {
         drawShield = false;
         playerWithShield = true;

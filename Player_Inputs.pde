@@ -20,8 +20,6 @@ void keyPressed()
       break;
     //Tells the program what key the player has pressed and therefore which way they are moving
   }
-  println(charPosX, charPosY, direction);
-  //Prints player coordinates and direction they are facing. For development only
 }
 
 void shieldtrue()
